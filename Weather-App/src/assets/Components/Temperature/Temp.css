@@ -1,0 +1,37 @@
+.icon {
+    display: flex;
+    flex-direction: column;
+    color: rgb(0, 0, 0);
+    align-items: center;
+}
+
+.temp {
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.weather {
+    font-size: 2em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background: #c2bfbf; 
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(15px);
+    border-radius: 0.7rem;
+    /* padding: 1.5rem; */
+    z-index: 5;
+    color: rgb(0, 0, 0);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding:2%;
+    /* margin: 10px 195px 10px 195px; */
+    margin: 0% 9%;
+    /* margin-top: 5%; */
+}
+
+.icon img{
+    height: 5rem;
+    width: 5rem;
+}

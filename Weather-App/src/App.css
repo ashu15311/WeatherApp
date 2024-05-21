@@ -1,0 +1,22 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.app{
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between; 
+    text-transform: capitalize;
+    /* flex-wrap: wrap; */
+    /* background-; */
+    /* margin-top:5% ; */
+    padding-top: 1.5rem;
+}
+
+
+
+

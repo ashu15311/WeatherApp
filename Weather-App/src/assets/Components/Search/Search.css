@@ -1,0 +1,68 @@
+.inp {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    height: 40%;
+    /* width: 60%; */
+    margin: 0% 9%;
+    background: rgba(255, 255, 255, 0.15);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(18px);
+    border-radius: 0.7rem;
+    padding: 1.5rem 0rem;
+    z-index: 5;
+    /* flex-wrap: wrap; */
+}
+
+.int input{
+    border: none;
+    /* border: 1px solid #ccc */
+    border-radius: 5px;
+    background-color: #eee9e9; 
+    text-align: center;
+    height: 100%;
+    font-size: inherit;
+    width: 75%  ;
+    text-transform: capitalize;
+    outline-width: 0px;
+    color: black;
+    display: flex;
+    /* flex-wrap: wrap; */
+    flex-shrink:inherit;
+}
+.int button{
+    height: 28px;
+    width: 30px;
+    border-radius: 50%;
+    text-align: center;
+    border: none;
+    background-color: #ffffff;
+    margin-left: 5px;
+    font-weight: 900;
+    background-color: transparent;
+}
+.int button:hover{
+    cursor: pointer;
+    background-color: rgb(83, 52, 223);
+}
+
+.time{
+    display: flex;
+    font-size: 1.4rem;
+    text-wrap: wrap;
+    /* margin: 0px 15px; */
+}
+
+.time h5{
+    /* padding-top: 8px; */
+    /* font-size: 20px; */
+    padding: 0px 5px;
+}
+
+.int{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+}
